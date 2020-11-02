@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f1baa0f-9fd6-4b46-a762-f971b9701c34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/audio_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filelists/ljs_audio_text_test_filelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filelists/ljs_audio_text_test_filelist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filelists/ljs_audio_text_train_filelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filelists/ljs_audio_text_train_filelist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filelists/ljs_audio_text_val_filelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filelists/ljs_audio_text_val_filelist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hparams.py" beforeDir="false" afterPath="$PROJECT_DIR$/hparams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inference.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loss_scaler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiproc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotting_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotting_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stft.py" beforeDir="false" afterPath="$PROJECT_DIR$/stft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/cleaners.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/cleaners.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/cmudict.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/cmudict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/symbols.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/symbols.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1c4vzLgx2AcGtMbytEgHdIqXISM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Python.TestInterface">
+    <configuration name="TestInterface" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tacotron2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestInterface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Wave" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tacotron2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Wave.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.TestInterface" />
+        <item itemvalue="Python.Wave" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f1baa0f-9fd6-4b46-a762-f971b9701c34" name="Default Changelist" comment="" />
+      <created>1589800941639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589800941639</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1249" height="183" key="GridCell.Tab.0.bottom" timestamp="1604315746892">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1249" height="183" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604315746892" />
+    <state width="1249" height="183" key="GridCell.Tab.0.center" timestamp="1604315746892">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1249" height="183" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604315746892" />
+    <state width="1249" height="183" key="GridCell.Tab.0.left" timestamp="1604315746891">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1249" height="183" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604315746891" />
+    <state width="1249" height="183" key="GridCell.Tab.0.right" timestamp="1604315746892">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1249" height="183" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604315746892" />
+    <state x="1592" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1604315543797">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1592" y="343" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604315543797" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="630" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="631" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="632" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="633" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="634" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="635" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="636" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="637" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="638" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="639" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="640" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="641" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="642" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="643" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="644" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="645" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="646" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="647" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/denoiser.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="648" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Canvas.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="723" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Synthesis.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="817" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Synthesis.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="818" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Synthesis.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="819" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Synthesis.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="820" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Synthesis.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="833" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="840" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="842" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="843" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="844" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="845" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="846" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="847" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="848" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="873" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="875" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SpeakersList.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="876" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Synthesis.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="919" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Synthesis.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="921" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>408</line>
+          <option name="timeStamp" value="922" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>409</line>
+          <option name="timeStamp" value="923" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>410</line>
+          <option name="timeStamp" value="924" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>412</line>
+          <option name="timeStamp" value="926" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>411</line>
+          <option name="timeStamp" value="927" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>414</line>
+          <option name="timeStamp" value="928" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>415</line>
+          <option name="timeStamp" value="929" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>418</line>
+          <option name="timeStamp" value="930" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>417</line>
+          <option name="timeStamp" value="931" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>420</line>
+          <option name="timeStamp" value="932" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow_old.py</url>
+          <line>172</line>
+          <option name="timeStamp" value="936" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow_old.py</url>
+          <line>174</line>
+          <option name="timeStamp" value="937" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow_old.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="938" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow_old.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="939" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow_old.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="940" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>250</line>
+          <option name="timeStamp" value="941" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>251</line>
+          <option name="timeStamp" value="942" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="943" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="944" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="945" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>257</line>
+          <option name="timeStamp" value="946" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="948" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>259</line>
+          <option name="timeStamp" value="949" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>263</line>
+          <option name="timeStamp" value="950" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>264</line>
+          <option name="timeStamp" value="951" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>268</line>
+          <option name="timeStamp" value="952" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>270</line>
+          <option name="timeStamp" value="953" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>271</line>
+          <option name="timeStamp" value="954" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>272</line>
+          <option name="timeStamp" value="955" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>273</line>
+          <option name="timeStamp" value="956" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>275</line>
+          <option name="timeStamp" value="957" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>277</line>
+          <option name="timeStamp" value="958" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>278</line>
+          <option name="timeStamp" value="959" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>279</line>
+          <option name="timeStamp" value="960" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>280</line>
+          <option name="timeStamp" value="961" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>284</line>
+          <option name="timeStamp" value="962" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>285</line>
+          <option name="timeStamp" value="963" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>286</line>
+          <option name="timeStamp" value="964" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>289</line>
+          <option name="timeStamp" value="966" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>288</line>
+          <option name="timeStamp" value="967" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>287</line>
+          <option name="timeStamp" value="968" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>291</line>
+          <option name="timeStamp" value="969" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/waveglow/glow.py</url>
+          <line>292</line>
+          <option name="timeStamp" value="970" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/text/__init__.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="971" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Program Files/Python37/Lib/site-packages/num2words/base.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="1035" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Program Files/Python37/Lib/site-packages/num2words/base.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="1036" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1063" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="1064" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1065" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="1066" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="1067" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="1068" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="1069" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="1070" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="1071" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="1072" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="1073" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="1074" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="1075" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="1076" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="1078" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="1079" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="1080" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="1081" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="1082" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Training.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="1083" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/text/cleaners.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="1084" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/text/cleaners.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="1085" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="1090" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>255</line>
+          <option name="timeStamp" value="1091" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="1092" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>257</line>
+          <option name="timeStamp" value="1093" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="1094" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>259</line>
+          <option name="timeStamp" value="1095" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="1096" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>261</line>
+          <option name="timeStamp" value="1097" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>263</line>
+          <option name="timeStamp" value="1098" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>262</line>
+          <option name="timeStamp" value="1099" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="1101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="1102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="1103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="1105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestInterface.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="1106" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
