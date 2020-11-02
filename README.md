@@ -1,7 +1,7 @@
 # Qt-Python-TextSpeechSynthesisInterface-Tacotron2
  Interface for speech synthesis using Tacotron2 and WaveGlow
 
-![alt text](1.jpg "View")​
+![alt text](View.jpg "View")​
 
  The program presents a user interface for speech synthesis [Tacotron2](https://github.com/NVIDIA/tacotron2) and [WaveGlow](https://github.com/NVIDIA/waveglow)
 
